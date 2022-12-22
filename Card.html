@@ -1,0 +1,120 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/htm; charset=utf-8">
+    <meta name="robots" content="all">
+    <title> sekme başlık</title>
+    <style>
+        .main {
+            width: 30%;
+            border: 1px solid gray;
+            height: 500px;
+            border-radius: 15px;
+            margin: auto;
+            padding: 10px;
+            position: relative;
+            box-sizing: border-box;
+        }
+        
+        .textOrtala {
+            text-align: center;
+        }
+        
+        .text {
+            font-size: 18px;
+            color: gray;
+        }
+        
+        .progress {
+            width: 250px;
+            height: 250px;
+            border: 10px solid yellow;
+            margin: auto;
+            border-radius: 50%;
+            padding-top: 15px;
+            box-sizing: border-box;
+        }
+        
+        .score {
+            font-size: 60px;
+            font-weight: bold;
+            margin-bottom: 1px;
+        }
+        
+        .point {
+            font-size: 25px;
+        }
+        
+        .subPart {
+            background-color: white;
+            position: absolute;
+            top: 48%;
+            left: 0;
+            height: 50%;
+            width: 100%;
+        }
+        
+        .shapes {
+            height: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+        .shape {
+            border-radius: 6px;
+            padding: 5px 9px;
+            box-sizing: border-box;
+            width: 35%;
+            border: 1px solid rgb(0, 0, 0);
+        }
+        
+        .shape-text-first {
+            font-size: 25px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Main Div -->
+    <div class="main">
+        <!-- mesage Div -->
+        <div class="message textOrtala">
+            <h3>Good Job!</h3>
+            <p class="text">Your Score</p>
+        </div>
+        <!-- progress Div -->
+        <div class="progress textOrtala">
+            <div class="score">1531</div>
+            <div class="point">points</div>
+        </div>
+        <!-- subPart Div -->
+        <div class="subPart">
+            <!--text-->
+            <div class="text" style="margin-left:15px; margin-top:25px;">Score Factors</div>
+            <!--shapes-->
+            <div class="shapes">
+                <div class="shape" style="box-shadow:6px 0px 0px 0px #adccca;">
+                    <div class="shape-text-first">853</div>
+                    <div class="text">lessons read</div>
+                </div>
+                <div class="shape" style="box-shadow:6px 0px 0px 0px #f0ff1c;">
+                    <div class="shape-text-first">853</div>
+                    <div class="text">lessons read</div>
+                </div>
+                <div class="shape" style="box-shadow:6px 0px 0px 0px #0e4d0b;">
+                    <div class="shape-text-first">853</div>
+                    <div class="text">lessons read</div>
+                </div>
+                <div class="shape" style="box-shadow:6px 0px 0px 0px #a3a6a2;">
+                    <div class="shape-text-first">853</div>
+                    <div class="text">lessons read</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
